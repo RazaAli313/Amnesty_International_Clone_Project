@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2550px;
+}
+.box{
+    display: flex;
+    height: 60px;
+    background-color: white;
+}
+.box img{
+    height:60px;
+    padding-left: 60px;
+}
+.box ul li{
+    border:none;
+}
+.box ul li:hover{
+    background-color: #E4E4E4;
+}
+.box ul{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+.box ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight:850;
+    font-size: 12px;
+    font-family:sans-serif;
+    padding-left:35px;
+
+}
+.navlist{
+    transform: translateX(200px);
+    
+}
+#donate{
+    background-color: yellow;
+    height:30px;
+}
+#donate:hover{
+    background-color: #E4E4E4;
+}
+.box2{
+   transform: translateY(-3.5px);
+    color:black;
+    background-color: #E4E4E4;
+    height:140px;
+}
+.box2 h2{
+    font-family: sans-serif;
+    text-align: center;
+    transform: translateY(50px);
+}
+.box2 p{
+    transform: translate(150px,70px);
+}
+.box3{
+    height: 550px;
+}
+.box4{
+    
+    display:flex;
+}
+.box4 h2{
+    font-family: sans-serif;
+    padding-left: 220px;
+    font-family:sans-serif;
+    padding-top: 60px;
+}
+.box5{
+    display:flex;
+    justify-content: space-evenly;
+}
+.box5 img{
+    width:200px;
+    padding-top: 30px;
+}
+.box6{
+    display: flex;
+}
+.box6 p{
+    width:230px;
+    padding-left: 150px;
+}
+.box7 ul{
+    transform: translate(-10px,25px);
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.box7 ul li{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding:10px;
+    border:2px solid black;
+}
+footer{
+    background-color: #000000;
+    height: 200px;
+}
+.box8{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box9{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.box8 p{
+    transform: translateX(30px);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width:500px;
+    height: 250px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+
+.box9 p{
+    transform: translate(10px,20px);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    width:350px;
+    height: 300px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para1{
+    z-index: 1;
+    background-image:url('https://www.amnesty.org/en/wp-content/uploads/2023/08/290332-1444x710.jpg') ;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+}
+#para2{
+    z-index: 1;
+    background-image:url('https://www.amnesty.org/en/wp-content/uploads/2023/08/Iraq-Quote-LGBT-1444x710.jpeg');
+    
+     background-repeat: no-repeat;
+     background-position: center;
+     
+    }
+#para3{
+    z-index: 1;
+    background-image:url('https://www.amnesty.org/en/wp-content/uploads/2023/08/293048-1444x710.jpg') ;
+  
+     background-repeat: no-repeat;
+     background-position: center;
+     
+    }
+    #para4{
+    z-index: 1;
+    background-image:url('https://www.amnesty.org/en/wp-content/uploads/2023/08/ZIMBABWE-RALLY-1444x710.jpg') ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#para5{
+    z-index: 1;
+    background-image:url('https://www.amnesty.org/en/wp-content/uploads/2023/08/293022-1444x710.jpg') ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.box10{
+    display: flex;
+    justify-content: center;
+}
+.box10 img{
+    margin-bottom: 60px;
+    width: 70vw;
+    height: 35vh;
+    
+}
+footer{
+    background-color: black;
+    height: 60vh;
+}
+.box11 ul{
+    padding-top:50px;
+    padding-bottom:20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.box11 ul li{
+color: #B5B5AA;
+font-weight: 500;
+font-family: sans-serif;
+}
+.box12{
+    margin-top: 20px;
+}
+.box12 ul{
+    list-style:none;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    color:#B5B5AA;
+}
+.box12 ul li{
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.box13 ul{
+    margin-top:20px;
+    margin-bottom:5px;
+    display: flex;
+    list-style:none;
+    color: white;
+}
+.box13 ul li{
+font-size: 15px;
+padding-left: 30px;
+margin-bottom: 10px;
+}
+.box14{
+display: flex;
+justify-content: space-around;
+}
+.box14 p{
+    font-size: 15px;
+    list-style:none;
+    color: white;
+    transform: translateX(-100px);
+}
+.box14 h1{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    transform: translateX(200px);
+}
+.box14 img{
+    transform: translateX(-30px);
+}
+#hr{
+    transform: translateX(-130px);
+}
+.id1{
+ transform: translateX(100px);
+}
+.id2{
+transform: translateX(-70px);
+}
+.id3{
+transform: translateX(-230px);
+}
+#vol{
+transform: translateX(-260px);
+}
+.id4{
+transform: translateX(-380px);
+}
+#news{
+transform: translateX(-400px);
+}
+.id5{
+transform: translateX(-800px);
+}
+

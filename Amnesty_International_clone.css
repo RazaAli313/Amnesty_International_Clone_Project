@@ -275,4 +275,26 @@ transform: translateX(-400px);
 .id5{
 transform: translateX(-800px);
 }
+ul li:hover{
+    font-weight: 900;
+    text-decoration:underline;
+}
+.box14 p:hover{
+    font-weight: 900;
+    text-decoration:underline;
+}
+.box14 h1:hover{
+    font-weight: 900;
+    text-decoration:underline;
+}
+.box7 ul a{
+    text-decoration:none;
+    color:#000000;
+}
+.box8 a{
+    text-decoration: none;
+}
+.box9 a{
+    text-decoration: none;
+}
 
